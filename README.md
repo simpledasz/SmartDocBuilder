@@ -6,8 +6,6 @@
 
 **SmartDocBuilderGUI** is a cross-platform desktop application built with **C#** and **Avalonia UI**, leveraging **Aspose.Words** for advanced document generation and manipulation. It empowers users to dynamically create PDF reports by merging JSON data into Word templates with an intuitive graphical interface.
 
-This project demonstrates modern .NET development, clean architecture, and deployment readiness, making it an ideal showcase for Junior C# Developer roles focusing on Aspose technologies.
-
 ---
 
 ## Features
