@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SmartDocBuilderGUI.MainWindow"
+        Title="SmartDocBuilder"
+        Width="500" Height="400"
+        Background="#1E1E2F"
+        Icon="/Assets/avalonia-logo.ico">
+
+    <Border CornerRadius="12" Background="#2A2A3C" Padding="20" Margin="10">
+        <StackPanel Spacing="15">
+            <TextBlock Text="📄 SmartDocBuilder" FontSize="24" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+
+            <Button Content="📁 Load JSON File" Click="OnLoadJson" Classes="accentButton"/>
+            <Button Content="📝 Load DOCX Template" Click="OnLoadTemplate" Classes="accentButton"/>
+            <Button Content="📄 Generate PDF Report" Click="OnGenerate" Classes="successButton"/>
+
+            <TextBlock Name="StatusText" Foreground="#BBBBBB" Margin="0,20,0,0" FontStyle="Italic"/>
+        </StackPanel>
+    </Border>
+
+</Window>

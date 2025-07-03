@@ -1,0 +1,37 @@
+<Styles xmlns="https://github.com/avaloniaui">
+  <!-- Accent Button Style -->
+  <Style Selector="Button.accentButton">
+    <Setter Property="Background" Value="#1E90FF" />
+    <Setter Property="Foreground" Value="White" />
+    <Setter Property="FontSize" Value="16" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Setter Property="Padding" Value="12,6" />
+    <Setter Property="CornerRadius" Value="10" />
+    <Setter Property="Margin" Value="6" />
+    <Setter Property="Cursor" Value="Hand" />
+  </Style>
+
+  <!-- Success Button Style -->
+  <Style Selector="Button.successButton">
+    <Setter Property="Background" Value="#28A745" />
+    <Setter Property="Foreground" Value="White" />
+    <Setter Property="FontSize" Value="16" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Setter Property="Padding" Value="12,6" />
+    <Setter Property="CornerRadius" Value="10" />
+    <Setter Property="Margin" Value="6" />
+    <Setter Property="Cursor" Value="Hand" />
+  </Style>
+
+  <!-- Secondary Button Style -->
+  <Style Selector="Button.secondaryButton">
+    <Setter Property="Background" Value="#6C757D" />
+    <Setter Property="Foreground" Value="White" />
+    <Setter Property="FontSize" Value="16" />
+    <Setter Property="FontWeight" Value="Bold" />
+    <Setter Property="Padding" Value="12,6" />
+    <Setter Property="CornerRadius" Value="10" />
+    <Setter Property="Margin" Value="6" />
+    <Setter Property="Cursor" Value="Hand" />
+  </Style>
+</Styles>
