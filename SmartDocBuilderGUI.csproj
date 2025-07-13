@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <AvaloniaResource Include="Assets\**" />
+    <AvaloniaResource Include="Themes\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,5 +26,11 @@
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Services\ThemeManager.cs">
+      <DependentUpon>Services</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

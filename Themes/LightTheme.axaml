@@ -1,0 +1,10 @@
+
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Light Theme Colors -->
+    <Color x:Key="PrimaryBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="PrimaryTextColor">#000000</Color>
+    <Color x:Key="AccentColor">#1E90FF</Color>
+    <Color x:Key="SuccessColor">#28A745</Color>
+    <Color x:Key="SecondaryColor">#6C757D</Color>
+</ResourceDictionary>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartDocBuilderGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b78686794fb54a9550f7c9c35c292bdbcc7719b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4f5b3cb07372fc10163e96e976b8b8d05481df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartDocBuilderGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartDocBuilderGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
