@@ -1,9 +1,15 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SmartDocBuilderGUI.ViewModels"
         x:Class="SmartDocBuilderGUI.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
         Title="SmartDocBuilder"
-        Width="500" Height="400"
+        Width="500" Height="450"
         Icon="/Assets/avalonia-logo.ico">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
 
     <Grid>
         <Button Content="Toggle Theme" Command="{Binding ToggleThemeCommand}" 
@@ -13,11 +19,18 @@
             <StackPanel Spacing="15">
                 <TextBlock Text="📄 SmartDocBuilder" FontSize="24" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
 
-                <Button Content="📁 Load JSON File" Click="OnLoadJson" Classes="accentButton"/>
-                <Button Content="📝 Load DOCX Template" Click="OnLoadTemplate" Classes="accentButton"/>
-                <Button Content="📄 Generate PDF Report" Click="OnGenerate" Classes="successButton"/>
+                <Button Content="📁 Load JSON File" Command="{Binding LoadJsonCommand}" Classes="accentButton"/>
+                <TextBlock Text="{Binding JsonFileName, FallbackValue='No JSON file selected'}" 
+                           Foreground="#BBBBBB" HorizontalAlignment="Center"/>
 
-                <TextBlock Name="StatusText" Foreground="#BBBBBB" Margin="0,20,0,0" FontStyle="Italic"/>
+                <Button Content="📝 Load DOCX Template" Command="{Binding LoadTemplateCommand}" Classes="accentButton"/>
+                <TextBlock Text="{Binding TemplateFileName, FallbackValue='No template file selected'}" 
+                           Foreground="#BBBBBB" HorizontalAlignment="Center"/>
+
+                <Button Content="📄 Generate PDF Report" Command="{Binding GenerateReportCommand}" Classes="successButton"/>
+
+                <TextBlock Text="{Binding StatusText, FallbackValue='Ready'}" 
+                           Foreground="#BBBBBB" Margin="0,20,0,0" FontStyle="Italic" HorizontalAlignment="Center"/>
             </StackPanel>
         </Border>
     </Grid>

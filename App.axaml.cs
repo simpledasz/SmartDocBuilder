@@ -3,7 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using SmartDocBuilder.Services;
 using SmartDocBuilderGUI.ViewModels;
-using SmartDocBuilderGUI.Views;
+using SmartDocBuilderGUI;
 
 namespace SmartDocBuilderGUI;
 

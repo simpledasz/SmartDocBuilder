@@ -1,7 +1,10 @@
 
 using System;
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Avalonia.Markup.Xaml.Styling;
+using Avalonia.Styling;
 
 namespace SmartDocBuilder.Services
 {
@@ -23,10 +26,7 @@ namespace SmartDocBuilder.Services
 
             if (app.Styles[0] is IResourceDictionary currentTheme)
             {
-                currentTheme.MergedDictionaries[0] = new ResourceInclude(themeUri)
-                {
-                    Source = themeUri
-                };
+                (currentTheme.MergedDictionaries[0] as ResourceInclude).Source = themeUri;
             }
         }
     }
