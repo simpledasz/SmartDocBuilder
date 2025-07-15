@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "95DwZ8/ngL0=",
+  "dgSpecHash": "UpnA0HemKwk=",
   "success": true,
   "projectFilePath": "C:\\Users\\razor\\Documents\\GitHub\\SmartDocBuilder\\SmartDocBuilderGUI.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\razor\\.nuget\\packages\\avalonia.win32\\11.3.2\\avalonia.win32.11.3.2.nupkg.sha512",
     "C:\\Users\\razor\\.nuget\\packages\\avalonia.x11\\11.3.2\\avalonia.x11.11.3.2.nupkg.sha512",
     "C:\\Users\\razor\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\razor\\.nuget\\packages\\csvhelper\\32.0.3\\csvhelper.32.0.3.nupkg.sha512",
     "C:\\Users\\razor\\.nuget\\packages\\harfbuzzsharp\\8.3.1.1\\harfbuzzsharp.8.3.1.1.nupkg.sha512",
     "C:\\Users\\razor\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\8.3.1.1\\harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",
     "C:\\Users\\razor\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\8.3.1.1\\harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",

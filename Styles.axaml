@@ -53,4 +53,33 @@
         <Setter Property="Margin" Value="6" />
         <Setter Property="Cursor" Value="Hand" />
     </Style>
+
+    <!-- ComboBox Style -->
+    <Style Selector="ComboBox">
+        <Setter Property="Background" Value="#4A4A5C" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="BorderBrush" Value="#6A6A7C" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Padding" Value="10,5" />
+    </Style>
+
+    <Style Selector="ComboBox:pointerover /template/ Border">
+        <Setter Property="Background" Value="#5A5A6C" />
+    </Style>
+
+    <Style Selector="ComboBoxItem">
+        <Setter Property="Background" Value="#4A4A5C" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Padding" Value="10,5" />
+    </Style>
+
+    <Style Selector="ComboBoxItem:pointerover">
+        <Setter Property="Background" Value="#5A5A6C" />
+    </Style>
+
+    <Style Selector="ComboBoxItem:selected">
+        <Setter Property="Background" Value="{DynamicResource AccentColor}" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
 </Styles>

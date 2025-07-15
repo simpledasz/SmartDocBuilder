@@ -153,3 +153,4 @@ C:\Users\razor\Documents\GitHub\SmartDocBuilder\bin\Debug\net9.0\runtimes\win-x8
 C:\Users\razor\Documents\GitHub\SmartDocBuilder\obj\Debug\net9.0\SmartDoc.15260A44.Up2Date
 C:\Users\razor\Documents\GitHub\SmartDocBuilder\obj\Debug\net9.0\SmartDocBuilderGUI.genruntimeconfig.cache
 C:\Users\razor\Documents\GitHub\SmartDocBuilder\obj\Debug\net9.0\ref\SmartDocBuilderGUI.dll
+C:\Users\razor\Documents\GitHub\SmartDocBuilder\bin\Debug\net9.0\CsvHelper.dll

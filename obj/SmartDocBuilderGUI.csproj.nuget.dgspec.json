@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[8.2.1, )"
             },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[32.0.3, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
